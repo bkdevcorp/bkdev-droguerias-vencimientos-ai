@@ -1,0 +1,42 @@
+{
+  "as_of": "2026-10-24",
+  "monthly_demand": {
+    "MED-001": 30,
+    "MED-002": 0,
+    "MED-003": 20
+  },
+  "inventory": [
+    {
+      "sku": "MED-001",
+      "lot": "L-A",
+      "quantity": 90,
+      "unit_cost": "12.50",
+      "expiry": "2026-11-23",
+      "status": "available"
+    },
+    {
+      "sku": "MED-001",
+      "lot": "L-B",
+      "quantity": 120,
+      "unit_cost": "12.50",
+      "expiry": "2027-04-22",
+      "status": "available"
+    },
+    {
+      "sku": "MED-002",
+      "lot": "L-C",
+      "quantity": 25,
+      "unit_cost": "8",
+      "expiry": "2026-10-01",
+      "status": "available"
+    },
+    {
+      "sku": "MED-003",
+      "lot": "L-D",
+      "quantity": 40,
+      "unit_cost": "20",
+      "expiry": "2027-12-31",
+      "status": "blocked"
+    }
+  ]
+}
